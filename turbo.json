@@ -6,8 +6,7 @@
       "dependsOn": ["^build"],
       "outputs": [
         ".next/**", 
-        "!.next/cache/**",
-        ".vercel/ouput/**"
+        "dist/**"
       ]
     },
     "lint": {
@@ -15,7 +14,6 @@
     },
     "dev": {
       "cache": false,
-      "persistent": true
     }
   }
 }
