@@ -1,7 +1,7 @@
 {
-  "eslint.workingDirectories": [
-    {
-      "mode": "auto"
-    }
-  ]
+  "git.ignoreLimitWarning": true,
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+  },
+  "files.autoSave": "onFocusChange",
 }
